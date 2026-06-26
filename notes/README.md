@@ -10,9 +10,9 @@ Topic-organized learning notes written as each milestone is reached. Notes favor
 | [LLM fundamentals (tokens, attention, sampling)](./llm-fundamentals.md) | M1 | ✅ |
 | [LLM APIs & tool use](./llm-apis-tool-use.md) | M1 | ✅ |
 | Prompt engineering | M1, M4 | ⚪ |
-| Embeddings & vector search | M2 | ⚪ |
-| RAG architecture | M2 | ⚪ |
-| RAG evaluation | M2, M4 | ⚪ |
+| [Embeddings & vector search](./rag.md#embeddings--vector-search) | M2 | ✅ |
+| [RAG architecture](./rag.md) | M2 | ✅ |
+| [RAG evaluation](./rag.md#evaluation--the-ship-gate) | M2, M4 | ✅ |
 | Agents & ReAct | M3 | ⚪ |
 | LangGraph | M3 | ⚪ |
 | MCP | M3 | ⚪ |
