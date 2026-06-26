@@ -20,11 +20,11 @@ Self-assessed mastery against the 2026 AI Engineer skill matrix. Updated at each
 | Evaluation & LLM-as-judge | 3 | 4 | M4 | Scorers + judge + CI ship-gate in `llm-eval-kit` |
 | Observability / tracing | 3 | 4 | M4 | In-memory span tracer (Langfuse/Phoenix shape) |
 | Guardrails & prompt-injection defense | 3 | 4 | M4 | Injection + PII guardrail pipeline; "the new XSS" |
-| Cost & latency optimization | 0 | 4 | M5 | Under-asked, over-used |
-| Docker & deployment | 1 | 4 | M5 | |
-| CI/CD for AI systems | 1 | 4 | M5 | |
-| Serving/inference (vLLM concepts) | 0 | 3 | M5 | Conceptual + hosted |
-| Fine-tuning (LoRA/QLoRA) | 0 | 3 | M5 | Right-sized, no GPU |
+| Cost & latency optimization | 3 | 4 | M5 | Semantic cache + model tiering applied in RAG serving |
+| Docker & deployment | 3 | 4 | M5 | Multi-stage Docker + render.yaml deploy path |
+| CI/CD for AI systems | 3 | 4 | M5 | Lint/type/test gates + CI-gated deploy workflow |
+| Serving/inference (vLLM concepts) | 2 | 3 | M5 | Conceptual (batching/KV cache); CPU/API serving built |
+| Fine-tuning (LoRA/QLoRA) | 3 | 3 | M5 | QLoRA notebook + tested workflow + when-to-fine-tune |
 | AI system design | 0 | 4 | M6 | |
 | SQL | 2 | 3 | M6 prep | |
 | ML/DL foundations | 1 | 3 | M6 prep | As interview surface needs |
