@@ -11,9 +11,9 @@ Self-assessed mastery against the 2026 AI Engineer skill matrix. Updated at each
 | LLM fundamentals (tokens, sampling, context) | 2 | 4 | M1 | Notes written; reinforce via more builds |
 | LLM APIs (tool use, structured output) | 3 | 4 | M1 | Applied in `structured-extractor` |
 | Prompt engineering | 2 | 4 | M1, M4 | Prompt-as-contract; evals come in M4 |
-| Embeddings & vector search | 0 | 4 | M2 | |
-| RAG (chunking, hybrid, rerank) | 0 | 4 | M2 | Most-deployed pattern |
-| RAG evaluation | 0 | 4 | M2, M4 | |
+| Embeddings & vector search | 3 | 4 | M2 | pgvector + in-memory; applied in `rag-knowledge-assistant` |
+| RAG (chunking, hybrid, rerank) | 3 | 4 | M2 | Hybrid + RRF + rerank built; most-deployed pattern |
+| RAG evaluation | 3 | 4 | M2, M4 | recall@k/MRR harness built; LLM-judge in M4 |
 | Agents & ReAct | 0 | 4 | M3 | Hardest interview section |
 | LangGraph orchestration | 0 | 4 | M3 | |
 | MCP (server + client) | 0 | 4 | M3 | Emerging standard |

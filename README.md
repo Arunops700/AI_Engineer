@@ -33,8 +33,8 @@ in [`roadmap/`](./roadmap/).
 | # | Milestone | Focus | Major Project | Status |
 |:-:|-----------|-------|---------------|:------:|
 | 0 | [Ecosystem Setup](./roadmap/milestone-0-setup.md) | Master repo + dev tooling | *this repo* | ✅ Done |
-| 1 | [LLM Fundamentals & Prompt Engineering](./roadmap/milestone-1-llm-fundamentals.md) | Tokens, sampling, tool use, structured output | [`structured-extractor`](https://github.com/Arunops700/structured-extractor) | 🟡 In progress |
-| 2 | [RAG, End to End](./roadmap/milestone-2-rag.md) | Embeddings, chunking, vector DBs, hybrid search, rerank | `rag-knowledge-assistant` | ⚪ Not started |
+| 1 | [LLM Fundamentals & Prompt Engineering](./roadmap/milestone-1-llm-fundamentals.md) | Tokens, sampling, tool use, structured output | [`structured-extractor`](https://github.com/Arunops700/structured-extractor) | ✅ Done |
+| 2 | [RAG, End to End](./roadmap/milestone-2-rag.md) | Embeddings, chunking, vector DBs, hybrid search, rerank | [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) | 🟡 In progress |
 | 3 | [Agents, Orchestration & MCP](./roadmap/milestone-3-agents-mcp.md) | ReAct, LangGraph, Claude Agent SDK, MCP | `agentic-workbench` | ⚪ Not started |
 | 4 | [Evaluation, Observability & Guardrails](./roadmap/milestone-4-evals-observability.md) | Evals, LLM-as-judge, tracing, prompt-injection defense | `llm-eval-kit` | ⚪ Not started |
 | 5 | [Serving, Deployment & MLOps](./roadmap/milestone-5-serving-deploy.md) | Docker, CI/CD, caching, cloud deploy, LoRA/QLoRA | cloud deploys + `lora-finetune-lab` | ⚪ Not started |
@@ -88,6 +88,7 @@ Each significant project is a standalone, professionally documented repository. 
 | Project | Milestone | What it shows | Status |
 |---------|:---------:|---------------|:------:|
 | [`structured-extractor`](https://github.com/Arunops700/structured-extractor) | M1 | Provider-agnostic structured extraction (Anthropic + OpenAI), tool use, validated output, CLI + FastAPI, tested, Dockerized, CI | ✅ Shipped |
+| [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) | M2 | Production RAG: hybrid (dense + BM25/RRF) retrieval, optional reranking, cited answers, recall@k/MRR eval harness; in-memory or pgvector; CLI + FastAPI; CI | ✅ Shipped |
 
 ---
 
