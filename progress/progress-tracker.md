@@ -26,8 +26,8 @@
 - [x] Toolchain verified (git, Python 3.13, gh) and `uv` installed
 - [x] Public `AI_Engineer` repo created under `Arunops700`
 - [x] Git identity set so commits count toward the portfolio
-- [ ] Full structure scaffolded and merged to `main` via PR
-- [ ] `uv sync` / `ruff` / `mypy` / `pytest` run clean
+- [x] Full structure scaffolded and merged to `main` via PR (#1)
+- [x] `uv sync` / `ruff` / `mypy` / `pytest` run clean
 - [ ] Milestone 0 reviewed & approved → start Milestone 1
 
 ## Activity log
@@ -36,3 +36,4 @@
 |------|-------|
 | 2026-06-26 | Researched 2026 AI Engineer hiring landscape; wrote master plan. |
 | 2026-06-26 | Created `AI_Engineer` repo; scaffolding ecosystem (Milestone 0). |
+| 2026-06-26 | Merged PR #1 (full scaffold); toolchain green. Milestone 0 ready for review. |
