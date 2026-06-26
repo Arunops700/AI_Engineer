@@ -19,8 +19,8 @@ Topic-organized learning notes written as each milestone is reached. Notes favor
 | [Evaluation & LLM-as-judge](./evals-observability-guardrails.md#evaluation) | M4 | ✅ |
 | [Observability & tracing](./evals-observability-guardrails.md#observability) | M4 | ✅ |
 | [Guardrails & prompt-injection defense](./evals-observability-guardrails.md#guardrails) | M4 | ✅ |
-| Serving & inference | M5 | ⚪ |
-| Deployment & CI/CD | M5 | ⚪ |
-| Fine-tuning (LoRA/QLoRA) | M5 | ⚪ |
+| [Serving & inference](./serving-deployment-finetuning.md#part-a--serving--deployment) | M5 | ✅ |
+| [Deployment & CI/CD](./serving-deployment-finetuning.md#cicd) | M5 | ✅ |
+| [Fine-tuning (LoRA/QLoRA)](./serving-deployment-finetuning.md#part-b--fine-tuning-right-sized) | M5 | ✅ |
 
 > Each note lands here as its milestone begins. **Legend:** ✅ Written · 🟡 In progress · ⚪ Pending.

@@ -1,7 +1,7 @@
 # 📊 Progress Tracker
 
 > Started: **June 2026** · Target: **~6 months** · Pace: **~20 hrs/week**
-> Last updated: **2026-06-26** (Milestone 4 in progress)
+> Last updated: **2026-06-26** (Milestone 5 in progress)
 
 ## Milestones
 
@@ -11,8 +11,8 @@
 | 1 | LLM fundamentals & prompt engineering | ✅ Done | 2026-06-26 | 2026-06-26 | [`structured-extractor`](https://github.com/Arunops700/structured-extractor) |
 | 2 | RAG, end to end | ✅ Done | 2026-06-26 | 2026-06-26 | [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) |
 | 3 | Agents, orchestration & MCP | ✅ Done | 2026-06-26 | 2026-06-26 | [`agentic-workbench`](https://github.com/Arunops700/agentic-workbench) |
-| 4 | Evaluation, observability & guardrails | 🟡 In progress | 2026-06-26 | — | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) |
-| 5 | Serving, deployment, MLOps & fine-tuning | ⚪ Not started | — | — | `lora-finetune-lab` + deploys |
+| 4 | Evaluation, observability & guardrails | ✅ Done | 2026-06-26 | 2026-06-26 | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) |
+| 5 | Serving, deployment, MLOps & fine-tuning | 🟡 In progress | 2026-06-26 | — | [`lora-finetune-lab`](https://github.com/Arunops700/lora-finetune-lab) + RAG serving |
 | 6 | Capstone + system design + interview readiness | ⚪ Not started | — | — | `flagship-ai-platform` |
 
 **Legend:** ✅ Done · 🟡 In progress · ⚪ Not started
@@ -25,6 +25,7 @@
 | `rag-knowledge-assistant` | M2 | [link](https://github.com/Arunops700/rag-knowledge-assistant) | Hybrid (dense + BM25/RRF) retrieval, optional rerank, cited answers, recall@k/MRR eval harness; memory or pgvector; 18 tests green; CI + Docker |
 | `agentic-workbench` | M3 | [link](https://github.com/Arunops700/agentic-workbench) | ReAct agent (from-scratch + LangGraph), tools, per-thread memory, step-budget safety, MCP server + client; 18 tests green; CI + Docker |
 | `llm-eval-kit` | M4 | [link](https://github.com/Arunops700/llm-eval-kit) | Scorers + LLM-as-judge + CI ship-gate, in-memory tracing, prompt-injection/PII guardrails; 25 tests green; CI + Docker |
+| `lora-finetune-lab` | M5 | [link](https://github.com/Arunops700/lora-finetune-lab) | QLoRA Colab notebook + CPU-tested data/prompt/eval + when-to-fine-tune analysis; 15 tests green; CI |
 
 ## Milestone 1 checklist
 
@@ -60,7 +61,16 @@
 - [x] Guardrails verified: prompt-injection blocking + PII redaction (CLI demo); gate fails on regression
 - [x] Offline-testable (FakeJudge); 25 tests green; CI + Docker; portfolio docs + interview Q&A
 - [ ] (Optional) Retrofit the gate/guardrails/tracing into the M1–M3 repos' CI
-- [ ] Milestone 4 reviewed & approved → start Milestone 5 (Serving, deployment, MLOps & fine-tuning)
+- [x] Milestone 4 reviewed & approved → start Milestone 5 (Serving, deployment, MLOps & fine-tuning)
+
+## Milestone 5 checklist
+
+- [x] Learning notes written (`notes/serving-deployment-finetuning.md`)
+- [x] Serving upgrade to `rag-knowledge-assistant`: semantic cache + rate limit + /metrics; 26 tests green
+- [x] Cloud deploy path: `render.yaml` blueprint + CI-gated deploy workflow + `docs/deployment.md`
+- [x] `lora-finetune-lab` built: QLoRA Colab notebook + CPU-tested code + when-to-fine-tune analysis; 15 tests
+- [ ] (Optional) Actually deploy to Render and run a Colab QLoRA training end-to-end (needs your accounts)
+- [ ] Milestone 5 reviewed & approved → start Milestone 6 (Capstone + system design + interview readiness)
 
 ## Milestone 0 checklist
 
@@ -86,3 +96,5 @@
 | 2026-06-26 | Shipped `agentic-workbench`: ReAct + LangGraph agent, memory, MCP server+client (stdio verified); 18 tests green, CI passing. M3 ready for review. |
 | 2026-06-26 | M3 approved. Started Milestone 4: evals/observability/guardrails notes + `llm-eval-kit`. |
 | 2026-06-26 | Shipped `llm-eval-kit`: scorers + judge + CI gate, tracer, guardrails (injection+PII verified); 25 tests green, CI passing. M4 ready for review. |
+| 2026-06-26 | M4 approved. Started Milestone 5: serving/deploy/fine-tuning notes. |
+| 2026-06-26 | Shipped `lora-finetune-lab` (QLoRA notebook + tested code + analysis) and a serving upgrade to RAG (cache/rate-limit/metrics/deploy). M5 ready for review. |

@@ -36,8 +36,8 @@ in [`roadmap/`](./roadmap/).
 | 1 | [LLM Fundamentals & Prompt Engineering](./roadmap/milestone-1-llm-fundamentals.md) | Tokens, sampling, tool use, structured output | [`structured-extractor`](https://github.com/Arunops700/structured-extractor) | ✅ Done |
 | 2 | [RAG, End to End](./roadmap/milestone-2-rag.md) | Embeddings, chunking, vector DBs, hybrid search, rerank | [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) | ✅ Done |
 | 3 | [Agents, Orchestration & MCP](./roadmap/milestone-3-agents-mcp.md) | ReAct, LangGraph, Claude Agent SDK, MCP | [`agentic-workbench`](https://github.com/Arunops700/agentic-workbench) | ✅ Done |
-| 4 | [Evaluation, Observability & Guardrails](./roadmap/milestone-4-evals-observability.md) | Evals, LLM-as-judge, tracing, prompt-injection defense | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) | 🟡 In progress |
-| 5 | [Serving, Deployment & MLOps](./roadmap/milestone-5-serving-deploy.md) | Docker, CI/CD, caching, cloud deploy, LoRA/QLoRA | cloud deploys + `lora-finetune-lab` | ⚪ Not started |
+| 4 | [Evaluation, Observability & Guardrails](./roadmap/milestone-4-evals-observability.md) | Evals, LLM-as-judge, tracing, prompt-injection defense | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) | ✅ Done |
+| 5 | [Serving, Deployment & MLOps](./roadmap/milestone-5-serving-deploy.md) | Docker, CI/CD, caching, cloud deploy, LoRA/QLoRA | [`lora-finetune-lab`](https://github.com/Arunops700/lora-finetune-lab) + RAG serving | 🟡 In progress |
 | 6 | [Capstone + Interview Readiness](./roadmap/milestone-6-capstone-interview.md) | Production agentic+RAG system, system design, mocks | `flagship-ai-platform` | ⚪ Not started |
 
 > **Legend:** ✅ Done · 🟡 In progress · ⚪ Not started
@@ -91,6 +91,7 @@ Each significant project is a standalone, professionally documented repository. 
 | [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) | M2 | Production RAG: hybrid (dense + BM25/RRF) retrieval, optional reranking, cited answers, recall@k/MRR eval harness; in-memory or pgvector; CLI + FastAPI; CI | ✅ Shipped |
 | [`agentic-workbench`](https://github.com/Arunops700/agentic-workbench) | M3 | ReAct agent (from-scratch + LangGraph) with tools, per-thread memory, step-budget safety, and a working MCP server + client; offline-testable; CLI + FastAPI; CI | ✅ Shipped |
 | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) | M4 | Eval scorers + LLM-as-judge + CI ship-gate, in-memory tracing, and prompt-injection/PII guardrails; offline-testable; CLI + FastAPI; CI | ✅ Shipped |
+| [`lora-finetune-lab`](https://github.com/Arunops700/lora-finetune-lab) | M5 | QLoRA Colab notebook + CPU-tested data/prompt/eval code + a *when-to-fine-tune-vs-RAG* analysis; CI | ✅ Shipped |
 
 ---
 
