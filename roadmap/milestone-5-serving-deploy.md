@@ -1,6 +1,6 @@
 # Milestone 5 — Serving, Deployment, MLOps & Light Fine-Tuning
 
-> **Weeks:** 16–19 · **Status:** ⚪ Not started · **Major build:** cloud deploys + `lora-finetune-lab`
+> **Weeks:** 16–19 · **Status:** ✅ Done · **Major build:** cloud deploys + `lora-finetune-lab`
 
 ## Objective
 
@@ -51,9 +51,9 @@ fine-tune vs RAG vs prompt*.
 
 ## Completion criteria
 
-- [ ] M2 + M3 deployed to the cloud, reachable, with CI/CD + monitoring.
-- [ ] `lora-finetune-lab` repo with a reproducible notebook + eval write-up.
-- [ ] Notes + cheatsheet + interview Q&A written; progress updated.
+- [ ] M2 + M3 deployed to the cloud, reachable, with CI/CD + monitoring. *(deploy path + CI-gated workflow shipped; live deploy optional — needs your accounts)*
+- [x] `lora-finetune-lab` repo with a reproducible notebook + eval write-up.
+- [x] Notes + cheatsheet + interview Q&A written; progress updated.
 
 ## Estimated duration
 

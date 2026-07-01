@@ -1,6 +1,6 @@
 # Milestone 1 — LLM Fundamentals & Prompt Engineering
 
-> **Weeks:** 1–3 · **Status:** ⚪ Not started · **Major build:** `structured-extractor`
+> **Weeks:** 1–3 · **Status:** ✅ Done · **Major build:** `structured-extractor`
 
 ## Objective
 
@@ -52,10 +52,10 @@ across Anthropic and OpenAI, with retries, cost logging, and tests.
 
 ## Completion criteria
 
-- [ ] `structured-extractor` repo: works, typed, tested, documented, deployed locally via Docker.
-- [ ] Exercises committed with notes.
-- [ ] Notes + cheatsheet + interview Q&A written.
-- [ ] Progress tracker + readiness scorecard updated.
+- [x] `structured-extractor` repo: works, typed, tested, documented, deployed locally via Docker.
+- [x] Exercises committed with notes.
+- [x] Notes + cheatsheet + interview Q&A written.
+- [x] Progress tracker + readiness scorecard updated.
 
 ## Estimated duration
 

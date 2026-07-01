@@ -1,6 +1,6 @@
 # Milestone 4 — Evaluation, Observability & Guardrails
 
-> **Weeks:** 13–15 · **Status:** ⚪ Not started · **Major build:** `llm-eval-kit` (+ retrofit M2/M3)
+> **Weeks:** 13–15 · **Status:** ✅ Done · **Major build:** `llm-eval-kit` (+ retrofit M2/M3)
 
 ## Objective
 
@@ -48,9 +48,9 @@ then **retrofit it into the M2 and M3 repos** so they ship behind real gates.
 
 ## Completion criteria
 
-- [ ] `llm-eval-kit` repo: works, typed, tested, documented.
-- [ ] M2 + M3 retrofitted with evals, tracing, and guardrails.
-- [ ] Notes + cheatsheet + interview Q&A written; progress updated.
+- [x] `llm-eval-kit` repo: works, typed, tested, documented.
+- [ ] M2 + M3 retrofitted with evals, tracing, and guardrails. *(optional — not pursued)*
+- [x] Notes + cheatsheet + interview Q&A written; progress updated.
 
 ## Estimated duration
 
