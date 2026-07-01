@@ -1,6 +1,6 @@
 # Milestone 2 — RAG, End to End
 
-> **Weeks:** 4–7 · **Status:** ⚪ Not started · **Major build:** `rag-knowledge-assistant`
+> **Weeks:** 4–7 · **Status:** ✅ Done · **Major build:** `rag-knowledge-assistant`
 
 ## Objective
 
@@ -48,9 +48,9 @@ streaming answers with citations, and a **repeatable eval harness** with a pass/
 
 ## Completion criteria
 
-- [ ] `rag-knowledge-assistant` repo: works, typed, tested, documented, Dockerized.
-- [ ] Eval harness with a golden set and a numeric quality gate.
-- [ ] Notes + cheatsheet + interview Q&A written; progress updated.
+- [x] `rag-knowledge-assistant` repo: works, typed, tested, documented, Dockerized.
+- [x] Eval harness with a golden set and a numeric quality gate.
+- [x] Notes + cheatsheet + interview Q&A written; progress updated.
 
 ## Estimated duration
 

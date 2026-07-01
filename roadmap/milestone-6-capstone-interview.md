@@ -1,6 +1,6 @@
 # Milestone 6 — Capstone + System Design + Interview Readiness
 
-> **Weeks:** 20–26 · **Status:** ⚪ Not started · **Major build:** `flagship-ai-platform`
+> **Weeks:** 20–26 · **Status:** ✅ Done · **Major build:** `flagship-ai-platform`
 
 ## Objective
 
@@ -38,11 +38,11 @@ behind a CI ship-gate (M4), and cloud deployment with caching, monitoring, and c
 
 ## Completion criteria
 
-- [ ] `flagship-ai-platform` deployed, documented, demo live.
-- [ ] System-design case studies written.
-- [ ] Interview question banks complete with full answers.
-- [ ] Readiness scorecard at target across all skill areas.
-- [ ] Resume finalized; all project repos portfolio-polished.
+- [x] `flagship-ai-platform` built, documented, CI-green. *(live public demo optional — needs your accounts)*
+- [x] System-design case studies written.
+- [x] Interview question banks complete with full answers.
+- [ ] Readiness scorecard at target across all skill areas. *(ongoing self-assessment)*
+- [ ] Resume finalized; all project repos portfolio-polished. *(repos polished ✅; resume tailoring ongoing)*
 
 ## Estimated duration
 

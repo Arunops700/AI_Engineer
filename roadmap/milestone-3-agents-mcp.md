@@ -1,6 +1,6 @@
 # Milestone 3 — Agents, Orchestration & MCP
 
-> **Weeks:** 8–12 · **Status:** ⚪ Not started · **Major build:** `agentic-workbench`
+> **Weeks:** 8–12 · **Status:** ✅ Done · **Major build:** `agentic-workbench`
 
 ## Objective
 
@@ -50,9 +50,9 @@ human-in-the-loop, **plus a custom MCP server** exposing its tools to any MCP-co
 
 ## Completion criteria
 
-- [ ] `agentic-workbench` repo: works, typed, tested, documented, Dockerized.
-- [ ] Working MCP server + client demo.
-- [ ] Notes + cheatsheet + interview Q&A written; progress updated.
+- [x] `agentic-workbench` repo: works, typed, tested, documented, Dockerized.
+- [x] Working MCP server + client demo.
+- [x] Notes + cheatsheet + interview Q&A written; progress updated.
 
 ## Estimated duration
 

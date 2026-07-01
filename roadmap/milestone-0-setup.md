@@ -1,6 +1,6 @@
 # Milestone 0 — Ecosystem Setup
 
-> **Weeks:** 0–1 · **Status:** 🟡 In progress · **Major build:** this `AI_Engineer` repo
+> **Weeks:** 0–1 · **Status:** ✅ Done · **Major build:** this `AI_Engineer` repo
 
 ## Objective
 
@@ -35,9 +35,9 @@ milestone has a home and a consistent toolchain.
 
 - [x] Public repo exists at `github.com/Arunops700/AI_Engineer`.
 - [x] Commits attributed to `Arunops700` (contributions count toward the portfolio).
-- [ ] Full folder structure scaffolded and pushed to `main` via a PR.
-- [ ] `uv sync`, `uv run ruff check .`, `uv run mypy .`, `uv run pytest` all run clean locally.
-- [ ] README dashboard renders with the roadmap and progress tracker.
+- [x] Full folder structure scaffolded and pushed to `main` via a PR.
+- [x] `uv sync`, `uv run ruff check .`, `uv run mypy .`, `uv run pytest` all run clean locally.
+- [x] README dashboard renders with the roadmap and progress tracker.
 
 ## Deliverables
 

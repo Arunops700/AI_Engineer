@@ -37,7 +37,7 @@ in [`roadmap/`](./roadmap/).
 | 2 | [RAG, End to End](./roadmap/milestone-2-rag.md) | Embeddings, chunking, vector DBs, hybrid search, rerank | [`rag-knowledge-assistant`](https://github.com/Arunops700/rag-knowledge-assistant) | ✅ Done |
 | 3 | [Agents, Orchestration & MCP](./roadmap/milestone-3-agents-mcp.md) | ReAct, LangGraph, Claude Agent SDK, MCP | [`agentic-workbench`](https://github.com/Arunops700/agentic-workbench) | ✅ Done |
 | 4 | [Evaluation, Observability & Guardrails](./roadmap/milestone-4-evals-observability.md) | Evals, LLM-as-judge, tracing, prompt-injection defense | [`llm-eval-kit`](https://github.com/Arunops700/llm-eval-kit) | ✅ Done |
-| 5 | [Serving, Deployment & MLOps](./roadmap/milestone-5-serving-deploy.md) | Docker, CI/CD, caching, cloud deploy, LoRA/QLoRA | [`lora-finetune-lab`](https://github.com/Arunops700/lora-finetune-lab) + RAG serving | 🟡 In progress |
+| 5 | [Serving, Deployment & MLOps](./roadmap/milestone-5-serving-deploy.md) | Docker, CI/CD, caching, cloud deploy, LoRA/QLoRA | [`lora-finetune-lab`](https://github.com/Arunops700/lora-finetune-lab) + RAG serving | ✅ Done |
 | 6 | [Capstone + Interview Readiness](./roadmap/milestone-6-capstone-interview.md) | Production agentic+RAG system, system design, mocks | [`flagship-ai-platform`](https://github.com/Arunops700/flagship-ai-platform) | ✅ Done |
 
 > **Legend:** ✅ Done · 🟡 In progress · ⚪ Not started
